@@ -36,7 +36,7 @@ under the License.
                 <set field="lastSystemInfoNote1" from-field="resultNote.lastSystemInfoNote1"/>
                 <set field="lastSystemInfoNote2" from-field="resultNote.lastSystemInfoNote2"/>
                 <set field="lastSystemInfoNote3" from-field="resultNote.lastSystemInfoNote3"/>
-                <set field="layoutSettings.middleTopHeader" value="---------- ${uiLabelMap.CommonLastSytemNotes} ----------"/>
+                <set field="layoutSettings.middleTopHeader" value="${uiLabelMap.CommonLastSytemNotes}"/>
                 <set field="layoutSettings.middleTopMessage1" value="${groovy:lastSystemInfoNote1!=null?lastSystemInfoNote1.noteDateTime.toString().substring(0,16) + &quot; &quot; + lastSystemInfoNote1.noteInfo:&quot;&quot;}"/>
                 <set field="layoutSettings.middleTopMessage2" value="${groovy:lastSystemInfoNote2!=null?lastSystemInfoNote2.noteDateTime.toString().substring(0,16) + &quot; &quot; + lastSystemInfoNote2.noteInfo:&quot;&quot;}"/>
                 <set field="layoutSettings.middleTopMessage3" value="${groovy:lastSystemInfoNote3!=null?lastSystemInfoNote3.noteDateTime.toString().substring(0,16) + &quot; &quot; + lastSystemInfoNote3.noteInfo:&quot;&quot;}"/>
