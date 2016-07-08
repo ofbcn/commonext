@@ -252,7 +252,7 @@ under the License.
 
     <!-- Technical Entities -->
     <EntityGroup entityGroupId="6910" entityGroupName="Technical: Entity and Service"/>
-    <EntityGroupEntry entityGroupId="6910" entityOrPackage="org.ofbiz.entity" applEnumId="ESIA_INCLUDE"/>
+    <EntityGroupEntry entityGroupId="6910" entityOrPackage="org.noerp.entity" applEnumId="ESIA_INCLUDE"/>
     <EntityGroupEntry entityGroupId="6910" entityOrPackage="org.ofbiz.service" applEnumId="ESIA_INCLUDE"/>
     <EntityGroup entityGroupId="6920" entityGroupName="Technical: Web"/>
     <EntityGroupEntry entityGroupId="6920" entityOrPackage="org.noerp.webapp" applEnumId="ESIA_INCLUDE"/>
